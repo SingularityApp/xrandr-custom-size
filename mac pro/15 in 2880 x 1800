@@ -1,0 +1,4 @@
+export DISPLAY=:0
+#cvt 2880 1800 30
+xrandr --newmode "2880x1800_30.00"  209.25  2880 3048 3344 3808  1800 1803 1809 1834 -hsync +vsync
+xrandr --addmode Virtual-1 "2880x1800_30.00"
